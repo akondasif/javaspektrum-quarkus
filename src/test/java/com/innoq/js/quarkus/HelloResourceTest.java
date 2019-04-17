@@ -15,6 +15,6 @@ public class HelloResourceTest {
           .when().get("/hello")
           .then()
              .statusCode(200)
-             .body(is("Hello, World!"));
+             .body("text", is("Hello, World!"));
     }
 }
