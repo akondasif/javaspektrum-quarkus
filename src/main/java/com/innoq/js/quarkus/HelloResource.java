@@ -1,5 +1,7 @@
 package com.innoq.js.quarkus;
 
+import io.quarkus.runtime.annotations.RegisterForReflection;
+
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
@@ -16,6 +18,7 @@ public class HelloResource {
         return Response.ok(greeting).build();
     }
 
+    @RegisterForReflection
     public static class Greeting {
 
         private String text;
