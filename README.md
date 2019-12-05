@@ -6,7 +6,8 @@ These application were written for my german
 [JavaSPEKTRUM](http://www.javaspektrum.de/) article "Der Praktiker: Cloud native
 Java-Anwendungen mit Quarkus - Alles Quark?".
 
-You download it as PDF [here](http://www.sigs.de/publications/download/Artikel/vitz_JS_03_19_kjhg.pdf).
+You can read it online [here](https://www.innoq.com/de/articles/2019/12/cloud-native-java-mit-quarkus/)
+or download as PDF [here](http://www.sigs.de/publications/download/Artikel/vitz_JS_03_19_kjhg.pdf).
 
 
 ## License
